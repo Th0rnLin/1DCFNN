@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER OneDCFNN_IP
+	OPTION supported_peripherals = (OneDCFNN_IP);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = OneDCFNN_IP;
+END DRIVER

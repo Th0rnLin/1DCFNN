@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../OneDCFNN_IP_1.0/src/fr_feature_map_buffer/sim/fr_feature_map_buffer.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

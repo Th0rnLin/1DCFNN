@@ -1,0 +1,2 @@
+df_output_buffer.v,verilog,xil_defaultlib,../../../../OneDCFNN_IP_1.0/src/df_output_buffer/sim/df_output_buffer.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 13 20:19:08 2022
+# Process ID: 1272
+# Current directory: E:/Zedboard/1DCFNN/project_1/project_1.runs/bn_mult_synth_1
+# Command line: vivado.exe -log bn_mult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bn_mult.tcl
+# Log file: E:/Zedboard/1DCFNN/project_1/project_1.runs/bn_mult_synth_1/bn_mult.vds
+# Journal file: E:/Zedboard/1DCFNN/project_1/project_1.runs/bn_mult_synth_1\vivado.jou
+#-----------------------------------------------------------
+source bn_mult.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP bn_mult, cache-ID = 1fed7040147ba867.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 13 20:19:11 2022...

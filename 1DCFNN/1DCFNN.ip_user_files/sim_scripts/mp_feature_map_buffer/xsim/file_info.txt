@@ -1,0 +1,2 @@
+mp_feature_map_buffer.v,verilog,xil_defaultlib,../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/mp_feature_map_buffer/sim/mp_feature_map_buffer.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

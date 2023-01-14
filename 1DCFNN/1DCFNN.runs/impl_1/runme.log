@@ -1,0 +1,852 @@
+
+*** Running vivado
+    with args -log CFNN_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source CFNN_top.tcl -notrace
+
+
+
+****** Vivado v2021.1 (64-bit)
+  **** SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+  **** IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source CFNN_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2207] Repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0' already exists; ignoring attempt to add it again.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'e:/Zedboard/1DCFNN/ip_repo/CFNN_IP_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Program_Files/Xilinx/Vivado/2021.1/data/ip'.
+Command: link_design -top CFNN_top -part xc7z020clg484-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_feature_map_buffer_synth_1/conv_feature_map_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/mp_feature_map_buffer_synth_1/mp_feature_map_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_feature_map_buffer_synth_1/bn_feature_map_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fc_feature_map_buffer_synth_1/fc_feature_map_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fr_feature_map_buffer_synth_1/fr_feature_map_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/df_output_buffer_synth_1/df_output_buffer.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_mult_synth_1/conv_mult.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+CRITICAL WARNING: [Project 1-840] The design checkpoint file 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_mult_synth_1/bn_mult.dcp' was generated for an IP by an out of context synthesis run and should not be used directly as a source in a Vivado flow. Constraints and other files related to the IP are only stored in the xci/xcix, not the checkpoint. It is strongly recommended that the original IP source file (.xci/.xcix) be used.
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_feature_map_buffer_synth_1/bn_feature_map_buffer.dcp' for cell 'u_bn_feature_map_buffer'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_feature_map_buffer_synth_1/conv_feature_map_buffer.dcp' for cell 'u_conv_feature_map_buffer_0'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/df_output_buffer_synth_1/df_output_buffer.dcp' for cell 'u_df_output_buffer'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fc_feature_map_buffer_synth_1/fc_feature_map_buffer.dcp' for cell 'u_fc_feature_map_buffer'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fr_feature_map_buffer_synth_1/fr_feature_map_buffer.dcp' for cell 'u_fr_feature_map_buffer'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/mp_feature_map_buffer_synth_1/mp_feature_map_buffer.dcp' for cell 'u_mp_feature_map_buffer_0'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_mult_synth_1/bn_mult.dcp' for cell 'u_batch_normalization_top/u_bn_processing_element/u_bn_mult'
+INFO: [Project 1-454] Reading design checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_mult_synth_1/conv_mult.dcp' for cell 'u_convolutional_top/u_conv_processing_element/u_conv_mult_0'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.192 . Memory (MB): peak = 1228.418 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2019 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1228.418 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+17 Infos, 7 Warnings, 8 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1228.418 ; gain = 0.000
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1228.418 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1cb6f4b19
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1558.949 ; gain = 330.531
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 4 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: e0a7eca3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.610 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 111 cells and removed 128 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 147d23372
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.727 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: e5545070
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 92 cells and removed 18 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: e5545070
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: e5545070
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1bd45ae61
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1779.867 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             111  |             128  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |              92  |              18  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1779.867 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: b76b62f6
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1779.867 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 45 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 2 newly gated: 0 Total Ports: 90
+Number of Flops added for Enable Generation: 3
+
+Ending PowerOpt Patch Enables Task | Checksum: e4ef93e1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Ending Power Optimization Task | Checksum: e4ef93e1
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 1909.160 ; gain = 129.293
+
+Starting Final Cleanup Task
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Logic Optimization Task | Checksum: 11673f163
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.955 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Ending Final Cleanup Task | Checksum: 11673f163
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1909.160 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 11673f163
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1909.160 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 8 Warnings, 8 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:18 . Memory (MB): peak = 1909.160 ; gain = 680.742
+INFO: [Common 17-1381] The checkpoint 'E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/impl_1/CFNN_top_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file CFNN_top_drc_opted.rpt -pb CFNN_top_drc_opted.pb -rpx CFNN_top_drc_opted.rpx
+Command: report_drc -file CFNN_top_drc_opted.rpt -pb CFNN_top_drc_opted.pb -rpx CFNN_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/impl_1/CFNN_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 6e475149
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1909.160 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (292) is greater than number of available sites (200).
+The following are banks with available pins: 
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 2 Drv: 12  has only 200 sites available on device, but needs 292 sites.
+	Term: result[0]
+	Term: result[1]
+	Term: result[2]
+	Term: result[3]
+	Term: result[4]
+	Term: result[5]
+	Term: result[6]
+	Term: result[7]
+	Term: result[8]
+	Term: result[9]
+	Term: result[10]
+	Term: result[11]
+	Term: result[12]
+	Term: result[13]
+	Term: result[14]
+	Term: result[15]
+	Term: test_bn_input_pixel[0]
+	Term: test_bn_input_pixel[1]
+	Term: test_bn_input_pixel[2]
+	Term: test_bn_input_pixel[3]
+	Term: test_bn_input_pixel[4]
+	Term: test_bn_input_pixel[5]
+	Term: test_bn_input_pixel[6]
+	Term: test_bn_input_pixel[7]
+	Term: test_bn_input_pixel[8]
+	Term: test_bn_input_pixel[9]
+	Term: test_bn_input_pixel[10]
+	Term: test_bn_input_pixel[11]
+	Term: test_bn_input_pixel[12]
+	Term: test_bn_input_pixel[13]
+	Term: test_bn_input_pixel[14]
+	Term: test_bn_input_pixel[15]
+	Term: test_bn_output_pixel[0]
+	Term: test_bn_output_pixel[1]
+	Term: test_bn_output_pixel[2]
+	Term: test_bn_output_pixel[3]
+	Term: test_bn_output_pixel[4]
+	Term: test_bn_output_pixel[5]
+	Term: test_bn_output_pixel[6]
+	Term: test_bn_output_pixel[7]
+	Term: test_bn_output_pixel[8]
+	Term: test_bn_output_pixel[9]
+	Term: test_bn_output_pixel[10]
+	Term: test_bn_output_pixel[11]
+	Term: test_bn_output_pixel[12]
+	Term: test_bn_output_pixel[13]
+	Term: test_bn_output_pixel[14]
+	Term: test_bn_output_pixel[15]
+	Term: test_conv_input_pixel[0]
+	Term: test_conv_input_pixel[1]
+	Term: test_conv_input_pixel[2]
+	Term: test_conv_input_pixel[3]
+	Term: test_conv_input_pixel[4]
+	Term: test_conv_input_pixel[5]
+	Term: test_conv_input_pixel[6]
+	Term: test_conv_input_pixel[7]
+	Term: test_conv_input_pixel[8]
+	Term: test_conv_input_pixel[9]
+	Term: test_conv_input_pixel[10]
+	Term: test_conv_input_pixel[11]
+	Term: test_conv_input_pixel[12]
+	Term: test_conv_input_pixel[13]
+	Term: test_conv_input_pixel[14]
+	Term: test_conv_input_pixel[15]
+	Term: test_conv_output_pixel[0]
+	Term: test_conv_output_pixel[1]
+	Term: test_conv_output_pixel[2]
+	Term: test_conv_output_pixel[3]
+	Term: test_conv_output_pixel[4]
+	Term: test_conv_output_pixel[5]
+	Term: test_conv_output_pixel[6]
+	Term: test_conv_output_pixel[7]
+	Term: test_conv_output_pixel[8]
+	Term: test_conv_output_pixel[9]
+	Term: test_conv_output_pixel[10]
+	Term: test_conv_output_pixel[11]
+	Term: test_conv_output_pixel[12]
+	Term: test_conv_output_pixel[13]
+	Term: test_conv_output_pixel[14]
+	Term: test_conv_output_pixel[15]
+	Term: test_df_input_pixel[0]
+	Term: test_df_input_pixel[1]
+	Term: test_df_input_pixel[2]
+	Term: test_df_input_pixel[3]
+	Term: test_df_input_pixel[4]
+	Term: test_df_input_pixel[5]
+	Term: test_df_input_pixel[6]
+	Term: test_df_input_pixel[7]
+	Term: test_df_input_pixel[8]
+	Term: test_df_input_pixel[9]
+	Term: test_df_input_pixel[10]
+	Term: test_df_input_pixel[11]
+	Term: test_df_input_pixel[12]
+	Term: test_df_input_pixel[13]
+	Term: test_df_input_pixel[14]
+	Term: test_df_input_pixel[15]
+	Term: test_df_output_pixel[0]
+	Term: test_df_output_pixel[1]
+	Term: test_df_output_pixel[2]
+	Term: test_df_output_pixel[3]
+	Term: test_df_output_pixel[4]
+	Term: test_df_output_pixel[5]
+	Term: test_df_output_pixel[6]
+	Term: test_df_output_pixel[7]
+	Term: test_df_output_pixel[8]
+	Term: test_df_output_pixel[9]
+	Term: test_df_output_pixel[10]
+	Term: test_df_output_pixel[11]
+	Term: test_df_output_pixel[12]
+	Term: test_df_output_pixel[13]
+	Term: test_df_output_pixel[14]
+	Term: test_df_output_pixel[15]
+	Term: test_fc_input_pixel[0]
+	Term: test_fc_input_pixel[1]
+	Term: test_fc_input_pixel[2]
+	Term: test_fc_input_pixel[3]
+	Term: test_fc_input_pixel[4]
+	Term: test_fc_input_pixel[5]
+	Term: test_fc_input_pixel[6]
+	Term: test_fc_input_pixel[7]
+	Term: test_fc_input_pixel[8]
+	Term: test_fc_input_pixel[9]
+	Term: test_fc_input_pixel[10]
+	Term: test_fc_input_pixel[11]
+	Term: test_fc_input_pixel[12]
+	Term: test_fc_input_pixel[13]
+	Term: test_fc_input_pixel[14]
+	Term: test_fc_input_pixel[15]
+	Term: test_fc_output_pixel[0]
+	Term: test_fc_output_pixel[1]
+	Term: test_fc_output_pixel[2]
+	Term: test_fc_output_pixel[3]
+	Term: test_fc_output_pixel[4]
+	Term: test_fc_output_pixel[5]
+	Term: test_fc_output_pixel[6]
+	Term: test_fc_output_pixel[7]
+	Term: test_fc_output_pixel[8]
+	Term: test_fc_output_pixel[9]
+	Term: test_fc_output_pixel[10]
+	Term: test_fc_output_pixel[11]
+	Term: test_fc_output_pixel[12]
+	Term: test_fc_output_pixel[13]
+	Term: test_fc_output_pixel[14]
+	Term: test_fc_output_pixel[15]
+	Term: test_fr_input_pixel[0]
+	Term: test_fr_input_pixel[1]
+	Term: test_fr_input_pixel[2]
+	Term: test_fr_input_pixel[3]
+	Term: test_fr_input_pixel[4]
+	Term: test_fr_input_pixel[5]
+	Term: test_fr_input_pixel[6]
+	Term: test_fr_input_pixel[7]
+	Term: test_fr_input_pixel[8]
+	Term: test_fr_input_pixel[9]
+	Term: test_fr_input_pixel[10]
+	Term: test_fr_input_pixel[11]
+	Term: test_fr_input_pixel[12]
+	Term: test_fr_input_pixel[13]
+	Term: test_fr_input_pixel[14]
+	Term: test_fr_input_pixel[15]
+	Term: test_fr_output_pixel[0]
+	Term: test_fr_output_pixel[1]
+	Term: test_fr_output_pixel[2]
+	Term: test_fr_output_pixel[3]
+	Term: test_fr_output_pixel[4]
+	Term: test_fr_output_pixel[5]
+	Term: test_fr_output_pixel[6]
+	Term: test_fr_output_pixel[7]
+	Term: test_fr_output_pixel[8]
+	Term: test_fr_output_pixel[9]
+	Term: test_fr_output_pixel[10]
+	Term: test_fr_output_pixel[11]
+	Term: test_fr_output_pixel[12]
+	Term: test_fr_output_pixel[13]
+	Term: test_fr_output_pixel[14]
+	Term: test_fr_output_pixel[15]
+	Term: test_mp_input_pixel[0]
+	Term: test_mp_input_pixel[1]
+	Term: test_mp_input_pixel[2]
+	Term: test_mp_input_pixel[3]
+	Term: test_mp_input_pixel[4]
+	Term: test_mp_input_pixel[5]
+	Term: test_mp_input_pixel[6]
+	Term: test_mp_input_pixel[7]
+	Term: test_mp_input_pixel[8]
+	Term: test_mp_input_pixel[9]
+	Term: test_mp_input_pixel[10]
+	Term: test_mp_input_pixel[11]
+	Term: test_mp_input_pixel[12]
+	Term: test_mp_input_pixel[13]
+	Term: test_mp_input_pixel[14]
+	Term: test_mp_input_pixel[15]
+	Term: test_mp_output_pixel[0]
+	Term: test_mp_output_pixel[1]
+	Term: test_mp_output_pixel[2]
+	Term: test_mp_output_pixel[3]
+	Term: test_mp_output_pixel[4]
+	Term: test_mp_output_pixel[5]
+	Term: test_mp_output_pixel[6]
+	Term: test_mp_output_pixel[7]
+	Term: test_mp_output_pixel[8]
+	Term: test_mp_output_pixel[9]
+	Term: test_mp_output_pixel[10]
+	Term: test_mp_output_pixel[11]
+	Term: test_mp_output_pixel[12]
+	Term: test_mp_output_pixel[13]
+	Term: test_mp_output_pixel[14]
+	Term: test_mp_output_pixel[15]
+	Term: test_fc_input_pixel_addr[0]
+	Term: test_fc_input_pixel_addr[1]
+	Term: test_fc_input_pixel_addr[2]
+	Term: test_fc_input_pixel_addr[3]
+	Term: test_fc_input_pixel_addr[4]
+	Term: test_fc_input_pixel_addr[5]
+	Term: test_conv_output_filter[0]
+	Term: test_conv_output_filter[1]
+	Term: test_conv_output_filter[2]
+	Term: test_conv_output_filter[3]
+	Term: test_conv_output_filter[4]
+	Term: test_fc_output_pixel_addr[0]
+	Term: test_fc_output_pixel_addr[1]
+	Term: test_fc_output_pixel_addr[2]
+	Term: test_fc_output_pixel_addr[3]
+	Term: test_fc_output_pixel_addr[4]
+	Term: test_fr_input_pixel_addr[0]
+	Term: test_fr_input_pixel_addr[1]
+	Term: test_fr_input_pixel_addr[2]
+	Term: test_fr_input_pixel_addr[3]
+	Term: test_fr_input_pixel_addr[4]
+	Term: test_mp_input_filter[0]
+	Term: test_mp_input_filter[1]
+	Term: test_mp_input_filter[2]
+	Term: test_mp_input_filter[3]
+	Term: test_mp_input_filter[4]
+	Term: test_bn_output_filter[0]
+	Term: test_bn_output_filter[1]
+	Term: test_bn_output_filter[2]
+	Term: test_bn_output_filter[3]
+	Term: test_df_input_pixel_addr[0]
+	Term: test_df_input_pixel_addr[1]
+	Term: test_df_input_pixel_addr[2]
+	Term: test_df_input_pixel_addr[3]
+	Term: test_fr_output_pixel_addr[0]
+	Term: test_fr_output_pixel_addr[1]
+	Term: test_fr_output_pixel_addr[2]
+	Term: test_fr_output_pixel_addr[3]
+	Term: test_mp_output_filter[0]
+	Term: test_mp_output_filter[1]
+	Term: test_mp_output_filter[2]
+	Term: test_mp_output_filter[3]
+	Term: test_bn_input_pixel_addr[0]
+	Term: test_bn_input_pixel_addr[1]
+	Term: test_bn_input_pixel_addr[2]
+	Term: test_bn_output_pixel_addr[0]
+	Term: test_bn_output_pixel_addr[1]
+	Term: test_bn_output_pixel_addr[2]
+	Term: test_conv_input_pixel_addr[0]
+	Term: test_conv_input_pixel_addr[1]
+	Term: test_conv_input_pixel_addr[2]
+	Term: test_conv_output_pixel_addr[0]
+	Term: test_conv_output_pixel_addr[1]
+	Term: test_conv_output_pixel_addr[2]
+	Term: test_mp_input_pixel_addr[0]
+	Term: test_mp_input_pixel_addr[1]
+	Term: test_mp_input_pixel_addr[2]
+	Term: done
+	Term: ready
+	Term: test_bn_done
+	Term: test_bn_ready
+	Term: test_bn_rst
+	Term: test_bn_start
+	Term: test_conv_done
+	Term: test_conv_ready
+	Term: test_conv_rst
+	Term: test_conv_start
+	Term: test_df_done
+	Term: test_df_output_pixel_addr
+	Term: test_df_ready
+	Term: test_df_rst
+	Term: test_df_start
+	Term: test_fc_done
+	Term: test_fc_ready
+	Term: test_fc_rst
+	Term: test_fc_start
+	Term: test_fr_done
+	Term: test_fr_ready
+	Term: test_fr_rst
+	Term: test_fr_start
+	Term: test_mp_done
+	Term: test_mp_ready
+	Term: test_mp_rst
+	Term: test_mp_start
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (294) is greater than number of available sites (200).
+The following are banks with available pins: 
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 2 Drv: 12  has only 200 sites available on device, but needs 292 sites.
+	Term: result[0]
+	Term: result[1]
+	Term: result[2]
+	Term: result[3]
+	Term: result[4]
+	Term: result[5]
+	Term: result[6]
+	Term: result[7]
+	Term: result[8]
+	Term: result[9]
+	Term: result[10]
+	Term: result[11]
+	Term: result[12]
+	Term: result[13]
+	Term: result[14]
+	Term: result[15]
+	Term: test_bn_input_pixel[0]
+	Term: test_bn_input_pixel[1]
+	Term: test_bn_input_pixel[2]
+	Term: test_bn_input_pixel[3]
+	Term: test_bn_input_pixel[4]
+	Term: test_bn_input_pixel[5]
+	Term: test_bn_input_pixel[6]
+	Term: test_bn_input_pixel[7]
+	Term: test_bn_input_pixel[8]
+	Term: test_bn_input_pixel[9]
+	Term: test_bn_input_pixel[10]
+	Term: test_bn_input_pixel[11]
+	Term: test_bn_input_pixel[12]
+	Term: test_bn_input_pixel[13]
+	Term: test_bn_input_pixel[14]
+	Term: test_bn_input_pixel[15]
+	Term: test_bn_output_pixel[0]
+	Term: test_bn_output_pixel[1]
+	Term: test_bn_output_pixel[2]
+	Term: test_bn_output_pixel[3]
+	Term: test_bn_output_pixel[4]
+	Term: test_bn_output_pixel[5]
+	Term: test_bn_output_pixel[6]
+	Term: test_bn_output_pixel[7]
+	Term: test_bn_output_pixel[8]
+	Term: test_bn_output_pixel[9]
+	Term: test_bn_output_pixel[10]
+	Term: test_bn_output_pixel[11]
+	Term: test_bn_output_pixel[12]
+	Term: test_bn_output_pixel[13]
+	Term: test_bn_output_pixel[14]
+	Term: test_bn_output_pixel[15]
+	Term: test_conv_input_pixel[0]
+	Term: test_conv_input_pixel[1]
+	Term: test_conv_input_pixel[2]
+	Term: test_conv_input_pixel[3]
+	Term: test_conv_input_pixel[4]
+	Term: test_conv_input_pixel[5]
+	Term: test_conv_input_pixel[6]
+	Term: test_conv_input_pixel[7]
+	Term: test_conv_input_pixel[8]
+	Term: test_conv_input_pixel[9]
+	Term: test_conv_input_pixel[10]
+	Term: test_conv_input_pixel[11]
+	Term: test_conv_input_pixel[12]
+	Term: test_conv_input_pixel[13]
+	Term: test_conv_input_pixel[14]
+	Term: test_conv_input_pixel[15]
+	Term: test_conv_output_pixel[0]
+	Term: test_conv_output_pixel[1]
+	Term: test_conv_output_pixel[2]
+	Term: test_conv_output_pixel[3]
+	Term: test_conv_output_pixel[4]
+	Term: test_conv_output_pixel[5]
+	Term: test_conv_output_pixel[6]
+	Term: test_conv_output_pixel[7]
+	Term: test_conv_output_pixel[8]
+	Term: test_conv_output_pixel[9]
+	Term: test_conv_output_pixel[10]
+	Term: test_conv_output_pixel[11]
+	Term: test_conv_output_pixel[12]
+	Term: test_conv_output_pixel[13]
+	Term: test_conv_output_pixel[14]
+	Term: test_conv_output_pixel[15]
+	Term: test_df_input_pixel[0]
+	Term: test_df_input_pixel[1]
+	Term: test_df_input_pixel[2]
+	Term: test_df_input_pixel[3]
+	Term: test_df_input_pixel[4]
+	Term: test_df_input_pixel[5]
+	Term: test_df_input_pixel[6]
+	Term: test_df_input_pixel[7]
+	Term: test_df_input_pixel[8]
+	Term: test_df_input_pixel[9]
+	Term: test_df_input_pixel[10]
+	Term: test_df_input_pixel[11]
+	Term: test_df_input_pixel[12]
+	Term: test_df_input_pixel[13]
+	Term: test_df_input_pixel[14]
+	Term: test_df_input_pixel[15]
+	Term: test_df_output_pixel[0]
+	Term: test_df_output_pixel[1]
+	Term: test_df_output_pixel[2]
+	Term: test_df_output_pixel[3]
+	Term: test_df_output_pixel[4]
+	Term: test_df_output_pixel[5]
+	Term: test_df_output_pixel[6]
+	Term: test_df_output_pixel[7]
+	Term: test_df_output_pixel[8]
+	Term: test_df_output_pixel[9]
+	Term: test_df_output_pixel[10]
+	Term: test_df_output_pixel[11]
+	Term: test_df_output_pixel[12]
+	Term: test_df_output_pixel[13]
+	Term: test_df_output_pixel[14]
+	Term: test_df_output_pixel[15]
+	Term: test_fc_input_pixel[0]
+	Term: test_fc_input_pixel[1]
+	Term: test_fc_input_pixel[2]
+	Term: test_fc_input_pixel[3]
+	Term: test_fc_input_pixel[4]
+	Term: test_fc_input_pixel[5]
+	Term: test_fc_input_pixel[6]
+	Term: test_fc_input_pixel[7]
+	Term: test_fc_input_pixel[8]
+	Term: test_fc_input_pixel[9]
+	Term: test_fc_input_pixel[10]
+	Term: test_fc_input_pixel[11]
+	Term: test_fc_input_pixel[12]
+	Term: test_fc_input_pixel[13]
+	Term: test_fc_input_pixel[14]
+	Term: test_fc_input_pixel[15]
+	Term: test_fc_output_pixel[0]
+	Term: test_fc_output_pixel[1]
+	Term: test_fc_output_pixel[2]
+	Term: test_fc_output_pixel[3]
+	Term: test_fc_output_pixel[4]
+	Term: test_fc_output_pixel[5]
+	Term: test_fc_output_pixel[6]
+	Term: test_fc_output_pixel[7]
+	Term: test_fc_output_pixel[8]
+	Term: test_fc_output_pixel[9]
+	Term: test_fc_output_pixel[10]
+	Term: test_fc_output_pixel[11]
+	Term: test_fc_output_pixel[12]
+	Term: test_fc_output_pixel[13]
+	Term: test_fc_output_pixel[14]
+	Term: test_fc_output_pixel[15]
+	Term: test_fr_input_pixel[0]
+	Term: test_fr_input_pixel[1]
+	Term: test_fr_input_pixel[2]
+	Term: test_fr_input_pixel[3]
+	Term: test_fr_input_pixel[4]
+	Term: test_fr_input_pixel[5]
+	Term: test_fr_input_pixel[6]
+	Term: test_fr_input_pixel[7]
+	Term: test_fr_input_pixel[8]
+	Term: test_fr_input_pixel[9]
+	Term: test_fr_input_pixel[10]
+	Term: test_fr_input_pixel[11]
+	Term: test_fr_input_pixel[12]
+	Term: test_fr_input_pixel[13]
+	Term: test_fr_input_pixel[14]
+	Term: test_fr_input_pixel[15]
+	Term: test_fr_output_pixel[0]
+	Term: test_fr_output_pixel[1]
+	Term: test_fr_output_pixel[2]
+	Term: test_fr_output_pixel[3]
+	Term: test_fr_output_pixel[4]
+	Term: test_fr_output_pixel[5]
+	Term: test_fr_output_pixel[6]
+	Term: test_fr_output_pixel[7]
+	Term: test_fr_output_pixel[8]
+	Term: test_fr_output_pixel[9]
+	Term: test_fr_output_pixel[10]
+	Term: test_fr_output_pixel[11]
+	Term: test_fr_output_pixel[12]
+	Term: test_fr_output_pixel[13]
+	Term: test_fr_output_pixel[14]
+	Term: test_fr_output_pixel[15]
+	Term: test_mp_input_pixel[0]
+	Term: test_mp_input_pixel[1]
+	Term: test_mp_input_pixel[2]
+	Term: test_mp_input_pixel[3]
+	Term: test_mp_input_pixel[4]
+	Term: test_mp_input_pixel[5]
+	Term: test_mp_input_pixel[6]
+	Term: test_mp_input_pixel[7]
+	Term: test_mp_input_pixel[8]
+	Term: test_mp_input_pixel[9]
+	Term: test_mp_input_pixel[10]
+	Term: test_mp_input_pixel[11]
+	Term: test_mp_input_pixel[12]
+	Term: test_mp_input_pixel[13]
+	Term: test_mp_input_pixel[14]
+	Term: test_mp_input_pixel[15]
+	Term: test_mp_output_pixel[0]
+	Term: test_mp_output_pixel[1]
+	Term: test_mp_output_pixel[2]
+	Term: test_mp_output_pixel[3]
+	Term: test_mp_output_pixel[4]
+	Term: test_mp_output_pixel[5]
+	Term: test_mp_output_pixel[6]
+	Term: test_mp_output_pixel[7]
+	Term: test_mp_output_pixel[8]
+	Term: test_mp_output_pixel[9]
+	Term: test_mp_output_pixel[10]
+	Term: test_mp_output_pixel[11]
+	Term: test_mp_output_pixel[12]
+	Term: test_mp_output_pixel[13]
+	Term: test_mp_output_pixel[14]
+	Term: test_mp_output_pixel[15]
+	Term: test_fc_input_pixel_addr[0]
+	Term: test_fc_input_pixel_addr[1]
+	Term: test_fc_input_pixel_addr[2]
+	Term: test_fc_input_pixel_addr[3]
+	Term: test_fc_input_pixel_addr[4]
+	Term: test_fc_input_pixel_addr[5]
+	Term: test_conv_output_filter[0]
+	Term: test_conv_output_filter[1]
+	Term: test_conv_output_filter[2]
+	Term: test_conv_output_filter[3]
+	Term: test_conv_output_filter[4]
+	Term: test_fc_output_pixel_addr[0]
+	Term: test_fc_output_pixel_addr[1]
+	Term: test_fc_output_pixel_addr[2]
+	Term: test_fc_output_pixel_addr[3]
+	Term: test_fc_output_pixel_addr[4]
+	Term: test_fr_input_pixel_addr[0]
+	Term: test_fr_input_pixel_addr[1]
+	Term: test_fr_input_pixel_addr[2]
+	Term: test_fr_input_pixel_addr[3]
+	Term: test_fr_input_pixel_addr[4]
+	Term: test_mp_input_filter[0]
+	Term: test_mp_input_filter[1]
+	Term: test_mp_input_filter[2]
+	Term: test_mp_input_filter[3]
+	Term: test_mp_input_filter[4]
+	Term: test_bn_output_filter[0]
+	Term: test_bn_output_filter[1]
+	Term: test_bn_output_filter[2]
+	Term: test_bn_output_filter[3]
+	Term: test_df_input_pixel_addr[0]
+	Term: test_df_input_pixel_addr[1]
+	Term: test_df_input_pixel_addr[2]
+	Term: test_df_input_pixel_addr[3]
+	Term: test_fr_output_pixel_addr[0]
+	Term: test_fr_output_pixel_addr[1]
+	Term: test_fr_output_pixel_addr[2]
+	Term: test_fr_output_pixel_addr[3]
+	Term: test_mp_output_filter[0]
+	Term: test_mp_output_filter[1]
+	Term: test_mp_output_filter[2]
+	Term: test_mp_output_filter[3]
+	Term: test_bn_input_pixel_addr[0]
+	Term: test_bn_input_pixel_addr[1]
+	Term: test_bn_input_pixel_addr[2]
+	Term: test_bn_output_pixel_addr[0]
+	Term: test_bn_output_pixel_addr[1]
+	Term: test_bn_output_pixel_addr[2]
+	Term: test_conv_input_pixel_addr[0]
+	Term: test_conv_input_pixel_addr[1]
+	Term: test_conv_input_pixel_addr[2]
+	Term: test_conv_output_pixel_addr[0]
+	Term: test_conv_output_pixel_addr[1]
+	Term: test_conv_output_pixel_addr[2]
+	Term: test_mp_input_pixel_addr[0]
+	Term: test_mp_input_pixel_addr[1]
+	Term: test_mp_input_pixel_addr[2]
+	Term: done
+	Term: ready
+	Term: test_bn_done
+	Term: test_bn_ready
+	Term: test_bn_rst
+	Term: test_bn_start
+	Term: test_conv_done
+	Term: test_conv_ready
+	Term: test_conv_rst
+	Term: test_conv_start
+	Term: test_df_done
+	Term: test_df_output_pixel_addr
+	Term: test_df_ready
+	Term: test_df_rst
+	Term: test_df_start
+	Term: test_fc_done
+	Term: test_fc_ready
+	Term: test_fc_rst
+	Term: test_fc_start
+	Term: test_fr_done
+	Term: test_fr_ready
+	Term: test_fr_rst
+	Term: test_fr_start
+	Term: test_mp_done
+	Term: test_mp_ready
+	Term: test_mp_rst
+	Term: test_mp_start
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 33 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   200 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: c440b130
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1909.160 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: c440b130
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1909.160 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: c440b130
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1909.160 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+55 Infos, 8 Warnings, 8 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 31 18:04:36 2022...

@@ -1,0 +1,41 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/df_output_buffer/sim/df_output_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/fr_feature_map_buffer/sim/fr_feature_map_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/fc_feature_map_buffer/sim/fc_feature_map_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/bn_feature_map_buffer/sim/bn_feature_map_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/mp_feature_map_buffer/sim/mp_feature_map_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/conv_feature_map_buffer/sim/conv_feature_map_buffer.v" \
+"../../../../../project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/input_signal/sim/input_signal.v" \
+"../../../../1DCFNN.srcs/sources_1/new/CFNN_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/batch_normalization_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/bn_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/bn_processing_element.v" \
+"../../../../1DCFNN.srcs/sources_1/new/bn_weights_memory.v" \
+"../../../../1DCFNN.srcs/sources_1/new/conv_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/conv_processing_element.v" \
+"../../../../1DCFNN.srcs/sources_1/new/conv_weights_memory.v" \
+"../../../../1DCFNN.srcs/sources_1/new/convolutional_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/defuzzy_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/df_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/df_processing_element.v" \
+"../../../../1DCFNN.srcs/sources_1/new/df_weights_memory.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fc_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fc_processing_element.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fc_weights_memory.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fr_exp_lut.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fr_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fr_processing_element.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fr_weights_memory.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fully_connected_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/fuzzy_rule_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/max_pooling_top.v" \
+"../../../../1DCFNN.srcs/sources_1/new/mp_input_buffer.v" \
+"../../../../1DCFNN.srcs/sources_1/new/mp_max.v" \
+"../../../../1DCFNN.srcs/sim_1/new/CFNN_top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

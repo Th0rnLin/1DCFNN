@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 13 20:15:27 2022
+# Process ID: 11540
+# Current directory: E:/Zedboard/1DCFNN/project_1/project_1.runs/df_mult_synth_1
+# Command line: vivado.exe -log df_mult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source df_mult.tcl
+# Log file: E:/Zedboard/1DCFNN/project_1/project_1.runs/df_mult_synth_1/df_mult.vds
+# Journal file: E:/Zedboard/1DCFNN/project_1/project_1.runs/df_mult_synth_1\vivado.jou
+#-----------------------------------------------------------
+source df_mult.tcl -notrace

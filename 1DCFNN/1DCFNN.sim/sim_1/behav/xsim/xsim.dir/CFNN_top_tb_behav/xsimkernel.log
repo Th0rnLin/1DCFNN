@@ -1,0 +1,7 @@
+Running: xsim.dir/CFNN_top_tb_behav/xsimk.exe -simmode gui -wdb CFNN_top_tb_behav.wdb -simrunnum 0 -socket 64215
+Design successfully loaded
+Design Loading Memory Usage: 14008 KB (Peak: 14008 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 18292 KB (Peak: 18292 KB)
+Simulation CPU Usage: 312 ms

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Zedboard/1DCFNN/project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/df_mult/sim/df_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'df_mult'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Zedboard/1DCFNN/project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/fc_mult/sim/fc_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fc_mult'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Zedboard/1DCFNN/project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/bn_mult/sim/bn_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bn_mult'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Zedboard/1DCFNN/project_1/project_1.tmp/cfnn_ip_v1_0_project/CFNN_IP_v1_0_project.gen/sources_1/ip/conv_mult/sim/conv_mult.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'conv_mult'

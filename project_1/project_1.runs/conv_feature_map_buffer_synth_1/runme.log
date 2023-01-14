@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log conv_feature_map_buffer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv_feature_map_buffer.tcl
+

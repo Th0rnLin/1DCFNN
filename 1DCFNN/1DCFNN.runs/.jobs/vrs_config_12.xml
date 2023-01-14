@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="conv_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="mp_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/mp_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bn_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fc_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fc_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fr_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/fr_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="df_output_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/df_output_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="conv_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/conv_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bn_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/bn_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="conv_feature_map_buffer_synth_1"/>
+		<Parent Id="mp_feature_map_buffer_synth_1"/>
+		<Parent Id="bn_feature_map_buffer_synth_1"/>
+		<Parent Id="fc_feature_map_buffer_synth_1"/>
+		<Parent Id="fr_feature_map_buffer_synth_1"/>
+		<Parent Id="df_output_buffer_synth_1"/>
+		<Parent Id="conv_mult_synth_1"/>
+		<Parent Id="bn_mult_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="E:/Zedboard/1DCFNN/1DCFNN/1DCFNN.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="route_design">
+		<Parent Id="synth_1"/>
+		<Parent Id="conv_feature_map_buffer_synth_1"/>
+		<Parent Id="mp_feature_map_buffer_synth_1"/>
+		<Parent Id="bn_feature_map_buffer_synth_1"/>
+		<Parent Id="fc_feature_map_buffer_synth_1"/>
+		<Parent Id="fr_feature_map_buffer_synth_1"/>
+		<Parent Id="df_output_buffer_synth_1"/>
+		<Parent Id="conv_mult_synth_1"/>
+		<Parent Id="bn_mult_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Oct 13 20:19:53 2022
+# Process ID: 4152
+# Current directory: E:/Zedboard/1DCFNN/project_1/project_1.runs/conv_feature_map_buffer_synth_1
+# Command line: vivado.exe -log conv_feature_map_buffer.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv_feature_map_buffer.tcl
+# Log file: E:/Zedboard/1DCFNN/project_1/project_1.runs/conv_feature_map_buffer_synth_1/conv_feature_map_buffer.vds
+# Journal file: E:/Zedboard/1DCFNN/project_1/project_1.runs/conv_feature_map_buffer_synth_1\vivado.jou
+#-----------------------------------------------------------
+source conv_feature_map_buffer.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP conv_feature_map_buffer, cache-ID = 25ab6b801a3747b3.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 13 20:19:57 2022...

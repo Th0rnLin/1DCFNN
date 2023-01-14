@@ -1,0 +1,3 @@
+blk_mem_gen_v8_4.v,verilog,blk_mem_gen_v8_4_4,../../../ipstatic/simulation/blk_mem_gen_v8_4.v,
+input_signal.v,verilog,xil_defaultlib,../../../../OneDCFNN_IP_1.0/src/input_signal/sim/input_signal.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="df_output_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/df_output_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="df_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/df_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fr_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/fr_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fc_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/fc_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="fc_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/fc_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bn_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/bn_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="bn_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/bn_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="fc_mult_synth_1"/>
+	</Run>
+	<Run Id="mp_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/mp_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="conv_feature_map_buffer_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/conv_feature_map_buffer_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="mp_feature_map_buffer_synth_1"/>
+	</Run>
+	<Run Id="conv_mult_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/conv_mult_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="df_mult_synth_1"/>
+	</Run>
+	<Run Id="input_signal_synth_1" LaunchDir="E:/Zedboard/1DCFNN/project_1/project_1.runs/input_signal_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../OneDCFNN_IP_1.0/src/input_signal/sim/input_signal.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

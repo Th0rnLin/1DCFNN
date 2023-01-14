@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1667210911">
+  <File Type="ROUTE-PWR" Name="CFNN_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="CFNN_top.tcl"/>
+  <File Type="BITSTR-MMI" Name="CFNN_top.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="CFNN_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="CFNN_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="CFNN_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="CFNN_top_reports.tcl"/>
+  <File Type="OPT-TIMING" Name="CFNN_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="CFNN_top_opt.dcp"/>
+  <File Type="OPT-DRC" Name="CFNN_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="CFNN_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="CFNN_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="CFNN_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="CFNN_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="CFNN_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="CFNN_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="CFNN_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="CFNN_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="CFNN_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="CFNN_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="CFNN_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="CFNN_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="CFNN_top.bin"/>
+  <File Type="PLACE-TIMING" Name="CFNN_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="CFNN_top_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="CFNN_top.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="CFNN_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="CFNN_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="CFNN_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="CFNN_top.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="CFNN_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="CFNN_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="CFNN_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="CFNN_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="CFNN_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="CFNN_top_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="CFNN_top_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="CFNN_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="CFNN_top_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="CFNN_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="CFNN_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="CFNN_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="CFNN_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="CFNN_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="CFNN_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="CFNN_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="CFNN_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="CFNN_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="CFNN_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="CFNN_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="CFNN_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="CFNN_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="CFNN_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="CFNN_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="CFNN_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="CFNN_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="CFNN_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="CFNN_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="CFNN_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="CFNN_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="CFNN_top.nky"/>
+  <File Type="BITSTR-BMM" Name="CFNN_top_bd.bmm"/>
+  <File Type="PDI-FILE" Name="CFNN_top.pdi"/>
+  <File Type="RCFI_FILE" Name="CFNN_top.rcfi"/>
+  <File Type="CFI_FILE" Name="CFNN_top.cfi"/>
+  <File Type="RNPI_FILE" Name="CFNN_top.rnpi"/>
+  <File Type="NPI_FILE" Name="CFNN_top.npi"/>
+  <File Type="RBD_FILE" Name="CFNN_top.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="CFNN_top.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="CFNN_top.sysdef"/>
+  <File Type="BG-BGN" Name="CFNN_top.bgn"/>
+  <File Type="BG-DRC" Name="CFNN_top.drc"/>
+  <File Type="RDI-RDI" Name="CFNN_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/batch_normalization_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bn_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bn_processing_element.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bn_weights_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv_processing_element.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/conv_weights_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/convolutional_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/defuzzy_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/df_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/df_processing_element.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/df_weights_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc_processing_element.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fc_weights_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fr_exp_lut.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fr_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fr_processing_element.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fr_weights_memory.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fully_connected_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fuzzy_rule_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/max_pooling_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mp_input_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mp_max.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CFNN_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CFNN_top2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../input_signal_test_0.6288_0.6737.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/test_output.txt"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CFNN_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="df_output_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="df_mult"/>
+  <BlockFileSet Type="BlockSrcs" Name="conv_feature_map_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="fr_feature_map_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="bn_feature_map_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="fc_feature_map_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="fc_mult"/>
+  <BlockFileSet Type="BlockSrcs" Name="bn_mult"/>
+  <BlockFileSet Type="BlockSrcs" Name="mp_feature_map_buffer"/>
+  <BlockFileSet Type="BlockSrcs" Name="conv_mult"/>
+  <BlockFileSet Type="BlockSrcs" Name="input_signal"/>
+</GenRun>

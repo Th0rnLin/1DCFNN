@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../OneDCFNN_IP_1.0/src/fc_mult/sim/fc_mult.vhd" \
+
+nosort
